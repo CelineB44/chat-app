@@ -7,9 +7,9 @@ function App() {
   return (
     <div className="App">
       
-      <Contact avatar="https://i.etsystatic.com/15080126/r/il/fdce70/1602228255/il_794xN.1602228255_657k.jpg" name="Luigi Roger" online />
-      <Contact avatar="http://www.wtt.biz/Files/108580/Img/14/65NIN042.jpg" name="Mario Roger" offline />
-      <Contact avatar="http://ekladata.com/mHlgYo4lrjo1hoHUiW7mCUY59uc.png" name="Peach Pitch" online />
+      <Contact avatar="https://randomuser.me/api/portraits/women/2.jpg" name="Salvi Roger" online />
+      <Contact avatar="https://randomuser.me/api/portraits/women/28.jpg" name="Berenice Robert" offline />
+      <Contact avatar="https://randomuser.me/api/portraits/men/86.jpg" name="José Pitch" online />
    
     </div>
   );
