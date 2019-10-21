@@ -5,35 +5,35 @@ const users=[
   {
     name:
     "Jesus Script",
-    status: true,
+    online: true,
     avatar:
       "https://randomuser.me/api/portraits/men/1.jpg"
   },
   {
     name: 
     "Chuck Norris",
-    status: true,
+    online: true,
     avatar:
       "https://randomuser.me/api/portraits/men/23.jpg"
   },
   {
     name: 
     "Larusso Phpousse",
-    status: false,
+    online: false,
     avatar:
       "https://randomuser.me/api/portraits/women/50.jpg"
   },
   {
     name:
       "Harry Potter",
-    status: false,
+    online: false,
     avatar:
       "https://randomuser.me/api/portraits/men/47.jpg"
   }, 
   {
     name:
       "Hermione Granger",
-    status: true,
+    online: true,
     avatar:
       "https://randomuser.me/api/portraits/women/47.jpg"
   }
@@ -42,12 +42,12 @@ const users=[
 
 const ContactList = () =>{
 return(
-  users.map((person) => {
+  users.map((item) => {
     return(
-      <Contact Name={person.name}
-       Status={person.status}
+      <Contact name={item.name}
+       online={item.online}
        
-       Avatar={person.avatar}/>
+       avatar={item.avatar}/>
        
     )
       
